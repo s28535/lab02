@@ -27,4 +27,13 @@
 
         return average;
     }
+
+    public static int max(int[] arr)
+    {
+        int max = 0;
+        foreach (int num in arr)
+            if (num > max)
+                max = num;
+        return max;
+    }
 }
