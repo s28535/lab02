@@ -14,4 +14,17 @@
         foreach(int num in arr)
             Console.WriteLine(num);
     }
+
+    public static double average(int[] arr)
+    {
+        int sum = 0;
+        foreach (int num in arr)
+        {
+            sum += num;
+        }
+
+        double average = sum / arr.Length;
+
+        return average;
+    }
 }
