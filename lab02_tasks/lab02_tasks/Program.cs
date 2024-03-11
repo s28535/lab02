@@ -12,6 +12,6 @@
         int[] arr = { 4, 5, 7, 8 };
         
         foreach(int num in arr)
-            Console.WriteLine(num);q
+            Console.WriteLine(num);
     }
 }
