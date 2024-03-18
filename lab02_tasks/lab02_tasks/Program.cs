@@ -18,9 +18,9 @@
     public static double average(int[] arr)
     {
         int sum = 0;
-        foreach (int num in arr)
+        foreach (int var in arr)
         {
-            sum += num;
+            sum += var;
         }
 
         double average = sum / arr.Length;
